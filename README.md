@@ -34,8 +34,9 @@ Run `make install` and follow all prompts
 3. Runs `ddev php craft` install commands and takes you through the craft cms cli installer
 
 ## Using NodeJS
-Seeing a `package.json` file in the root of this project may tempt to you run node processes on your host machine. (e.g `yarn install ...`)
+Seeing a `package.json` file in the root of this project may tempt to you run node processes 
+on your host machine. (e.g `yarn add ...`)
 
 **DON'T DO IT! YOU'RE GONNA HAVE A BAD TIME!**  
 
-Instead, only run node processes from within a ddev docker container. To do that, make sure your ddev environement is running with `make up`, then you can install any node packages you need with `ddev yarn install <your-package-name>`.
+Instead, only run node processes from within a ddev docker container. To do that, make sure your ddev environement is running with `make up`, then you can install any node packages you need with `ddev yarn add <your-package-name>`.
