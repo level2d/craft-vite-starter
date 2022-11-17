@@ -1,0 +1,9 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+	<div class="py-3 text-sm">{{ entry.issueTitle }}</div>
+	<div class="py-3 text-xl">{{ entry.title }}</div>
+	<div class="py-3 text-5xl">{{ entry.subtitle }}</div>
+	<div class="py-3">{{ entry.body }}</div>
+	<div class="py-3 text-xl">by {{ entry.authorEntries.one() }}</div>
+{% endblock %}

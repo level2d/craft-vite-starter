@@ -1,0 +1,10 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+	{% set blocks = entry.blocks.level(1).all() %}
+	<div class="w-full blocks-wrapper">
+		{% for item in blocks %}
+			{% include 'blocks/' ~ item.type.handle with {first: loop.first, last: loop.last} %}
+		{% endfor %}
+	</div>
+{% endblock %}

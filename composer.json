@@ -1,0 +1,53 @@
+{
+  "require": {
+    "craftcms/aws-s3": "^2.0",
+    "craftcms/cms": "4.3.1",
+    "craftcms/commerce": "4.2.2",
+    "craftcms/element-api": "3.0.1.1",
+    "craftcms/feed-me": "^5.0",
+    "craftcms/redactor": "^3.0",
+    "luwes/craft-codemirror": "^2.0",
+    "nfourtythree/entriessubset": "^2.1",
+    "nystudio107/craft-imageoptimize": "^4.0",
+    "nystudio107/craft-retour": "4.1.5",
+    "nystudio107/craft-seomatic": "4.0.13",
+    "nystudio107/craft-vite": "^4.0",
+    "ostark/craft-async-queue": "^3.1",
+    "percipioglobal/craft-colour-swatches": "4.2.1",
+    "presseddigital/linkit": "4.0.4.1",
+    "putyourlightson/craft-blitz": "^4.2",
+    "servd/craft-asset-storage": "3.1.8",
+    "spicyweb/craft-embedded-assets": "3.1.0",
+    "spicyweb/craft-neo": "3.5.2",
+    "verbb/field-manager": "3.0.4",
+    "verbb/image-resizer": "3.0.4",
+    "verbb/navigation": "2.0.11",
+    "verbb/super-table": "3.0.5",
+    "verbb/tablemaker": "^4.0",
+    "vlucas/phpdotenv": "^5.4.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-shell": "^2.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    },
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.0.2"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
+    ]
+  }
+}

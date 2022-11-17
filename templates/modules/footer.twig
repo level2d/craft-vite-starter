@@ -1,0 +1,39 @@
+{% set socialNavigation = craft.navigation.nodes(general.navigation.social).all() %}
+<footer id="main-footer" class="w-full">
+	<div class="container">
+		<div class="footer-subscribe-logo">
+			<div>
+				[logo] Subscribe for Full Access
+			</div>
+
+			<div class="footer-copyright">
+				{{ footer.copyrightText|raw }}
+			</div>
+		</div>
+
+		<div class="footer-navigation">
+			{{ craft.navigation.render(general.navigation.footer, {
+				ulClass: 'footer-navigation-items',
+				liClass: 'footer-navigation-item',
+				aClass: 'footer-navigation-link'
+			}) }}
+		</div>
+
+		<div class="footer-social">
+			<div class="footer-newsletter-form">
+				mailchimp embed form
+			</div>
+
+			<div class="footer-social-links">
+				Follow Us on Social Media:
+
+				{% for node in socialNavigation %}
+					<a {% if node.url %} href="{{ node.url }}" {% endif %} title="{{ node.title }}" class="footer-social-link {% if node.classes | length %}{{ node.classes }}{% endif %} {% if node.active %}is-active{% endif %}" {% if node.newWindow %} target="_blank" rel="noopener" {% endif %} {% for attribute in node.customAttributes %} {{ attribute.attribute }}="{{ attribute.value }}" {% endfor %}>
+						[{{ node.title }}
+						icon]
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</footer>

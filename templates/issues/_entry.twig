@@ -1,0 +1,28 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+	<h1>{{ entry.title }}</h1>
+
+	{% set issueCategories = craft.categories().group('articleCategory').level(1) %}
+
+	{% for category in issueCategories %}
+		{% set articleEntries = entry.articleEntries.articleCategoryField(category).all() %}
+
+		{% if articleEntries %}
+			<h2>Category {{ category }}</h2>
+		{% endif %}
+		<div class="m-3 flex flex-col">
+			{% for article in articleEntries %}
+			<div class="p-3 article">
+				{% if category == "Departments" %}
+					<h5> {{ article.articleCategoryField.level(2).one() }}</h5>
+				{% endif %}
+					<h1>{{ article.title }}</h1>
+					<h3>{{ article.authorEntries.one() }}</h3>
+					<h5>{{ article.subtitle }}</h5>
+			</div>
+			{% endfor %}
+		</div>
+
+	{% endfor %}
+{% endblock %}

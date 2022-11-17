@@ -1,0 +1,10 @@
+//npm i normalize-scss
+@import "normalize-scss";
+
+// probably use tailwind's stuff here
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
