@@ -5,5 +5,5 @@ hasUrls: true
 language: en-US
 name: 'Ringgold Telephone Company'
 primary: true
-siteGroup: 604f8213-d2c6-49c7-b9e8-9865eb6dff37 # Ringgold Telephone Company
+siteGroup: 604f8213-d2c6-49c7-b9e8-9865eb6dff37 # Craft Vite Starter
 sortOrder: 1

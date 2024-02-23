@@ -2,7 +2,7 @@
     "name": "html",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "git@github.com:level2d/ringgold-telephone-company.git",
+    "repository": "git@github.com:level2d/craft-vite-starter.git",
     "author": "DDEV User <nobody@example.com>",
     "type": "module",
     "license": "MIT",
