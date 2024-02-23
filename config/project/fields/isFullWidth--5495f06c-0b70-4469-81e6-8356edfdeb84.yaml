@@ -1,0 +1,14 @@
+columnSuffix: fwzveyom
+contentColumnType: boolean
+fieldGroup: 17d0a86b-bb67-42f1-9695-2d7e290bb91e # Styles
+handle: isFullWidth
+instructions: null
+name: 'Is Full Width?'
+searchable: false
+settings:
+  default: false
+  offLabel: Contained
+  onLabel: 'Full Screen Width'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

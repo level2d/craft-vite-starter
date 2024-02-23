@@ -1,0 +1,29 @@
+{% macro h1(text, classes) %}
+    <h3 {% if classes %}class="{{ classes }}"{% endif %}>
+        {{ text }}
+    </h3>
+{% endmacro %}
+
+{% macro h2(text, classes) %}
+    <h3 {% if classes %}class="{{ classes }}"{% endif %}>
+        {{ text }}
+    </h3>
+{% endmacro %}
+
+{% macro h3(text, classes) %}
+    <h3 {% if classes %}class="{{ classes }}"{% endif %}>
+        {{ text }}
+    </h3>
+{% endmacro %}
+
+{% macro h4(text, classes) %}
+    <h4 {% if classes %}class="{{ classes }}"{% endif %}>
+        {{ text }}
+    </h4>
+{% endmacro %}
+
+{% macro h5(text, classes) %}
+    <h4 {% if classes %}class="{{ classes }}"{% endif %}>
+        {{ text }}
+    </h4>
+{% endmacro %}

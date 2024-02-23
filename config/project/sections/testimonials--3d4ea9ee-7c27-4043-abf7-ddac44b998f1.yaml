@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: testimonials
+name: Testimonials
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2c5ff7c2-a1cb-4af2-852d-27a21966aaa0: # Ringgold Telephone Company
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

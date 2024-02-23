@@ -1,0 +1,17 @@
+columnSuffix: ljtupuxu
+contentColumnType: text
+fieldGroup: eaf78ba9-edcd-49a0-9c85-9ff04d14d378 # Common
+handle: table
+instructions: null
+name: Table
+searchable: true
+settings:
+  columnsAddRowLabel: null
+  columnsInstructions: null
+  columnsLabel: null
+  rowsAddRowLabel: null
+  rowsInstructions: null
+  rowsLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\tablemaker\fields\TableMakerField

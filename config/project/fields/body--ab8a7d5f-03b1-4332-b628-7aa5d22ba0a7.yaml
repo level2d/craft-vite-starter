@@ -1,0 +1,27 @@
+columnSuffix: qaycvqba
+contentColumnType: mediumtext
+fieldGroup: eaf78ba9-edcd-49a0-9c85-9ff04d14d378 # Common
+handle: body
+instructions: null
+name: Body
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: mediumtext
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

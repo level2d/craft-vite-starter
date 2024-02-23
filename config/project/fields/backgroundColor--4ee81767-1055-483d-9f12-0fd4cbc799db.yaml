@@ -1,0 +1,15 @@
+columnSuffix: xzzizvtl
+contentColumnType: text
+fieldGroup: 17d0a86b-bb67-42f1-9695-2d7e290bb91e # Styles
+handle: backgroundColor
+instructions: null
+name: 'Background Color'
+searchable: false
+settings:
+  default: null
+  palette: Background
+  setRandom: false
+  useConfigFile: true
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\colourswatches\fields\ColourSwatches

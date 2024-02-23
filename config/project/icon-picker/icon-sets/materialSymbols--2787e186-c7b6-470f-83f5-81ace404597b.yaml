@@ -1,0 +1,5 @@
+enabled: true
+handle: materialSymbols
+name: 'Material Symbols'
+sortOrder: 2
+type: verbb\iconpicker\iconsets\MaterialSymbols

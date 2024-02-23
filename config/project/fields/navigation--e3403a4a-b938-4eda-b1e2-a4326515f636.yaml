@@ -1,0 +1,58 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: eaf78ba9-edcd-49a0-9c85-9ff04d14d378 # Common
+handle: navigation
+instructions: null
+name: Navigation
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 156180793
+  columns:
+    __assoc__:
+      -
+        - 71e19741-cdb8-4c83-8849-c4a3e6e434fe # Masthead
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 99ad426b-09dc-4e88-b9f7-5655c5caa7f7 # Header
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 4d215f2f-c5a7-49bb-837c-df869034c941 # Footer
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 5bb7a6fc-9e4f-44db-9c13-f9f3860e741f # Mobile
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - e150d5e7-3b72-46a6-a272-91f4fd780f32 # Social
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_navigation}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

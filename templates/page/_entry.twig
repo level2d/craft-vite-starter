@@ -1,0 +1,27 @@
+{% extends '_layout.twig' %}
+
+{% set blocks = entry.blocks.with([]).all() %}
+
+{% for item in blocks %}
+    {% do item.useMemoIzed(blocks) %}
+{% endfor %}
+
+{% block content %}
+    <div class="w-full blocks-wrapper">
+        {% for item in blocks %}
+            {% if item.level == 1 %}
+                {% cache using
+                    key
+                    craft.app.request.pathInfo ~ '-block-' ~ item.type.handle
+                        ~ '-id-'
+                        ~ item.id
+                %}
+                {% include 'blocks/' ~ item.type.handle with {
+                    first: loop.first,
+                    last: loop.last,
+                } %}
+                {% endcache %}
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}

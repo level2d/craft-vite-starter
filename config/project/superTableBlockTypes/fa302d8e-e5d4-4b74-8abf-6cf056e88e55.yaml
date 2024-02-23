@@ -1,0 +1,66 @@
+changedFieldIndicator: 2071405387
+field: b3a0e118-0da5-45fd-9667-e7470417ab95 # Remove Padding
+fieldLayouts:
+  4e78f7ca-822f-4ead-948b-dc5ace38fd41:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bb55a602-b198-4371-a170-22cddb9de6bc # Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ac4d537-2e38-49f4-b95d-75a2d536e520
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d7cf2eba-cdd5-4b1a-a6e2-583fb53db7f1 # Bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fdcfc0b1-4807-4a18-9400-cbecce427d57
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0511c917-0791-4252-8237-167c84acc8d5
+        userCondition: null
+fields:
+  bb55a602-b198-4371-a170-22cddb9de6bc: # Top
+    columnSuffix: ezssfjzd
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: top
+    instructions: null
+    name: Top
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  d7cf2eba-cdd5-4b1a-a6e2-583fb53db7f1: # Bottom
+    columnSuffix: lhjvqhep
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: bottom
+    instructions: null
+    name: Bottom
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch

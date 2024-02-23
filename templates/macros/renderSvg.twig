@@ -1,0 +1,17 @@
+{% macro renderSvg(path, attributes = null, alt = null) %}
+	{# settings #}
+	{% set directory = 'svg' %}
+	{# logic #}
+	{% if path is defined and path is not empty %}
+		{% set _svg = svg('@webroot/'~directory~'/'~path~'.svg', namespace=true) %}
+		{% if alt %}
+			{% set _svg = _svg|prepend('<title>'~alt~'</title>') %}
+		{% endif %}
+		{% if attributes and attributes is not iterable %}
+			{% set _svg = _svg|attr({class: attributes}) %}
+		{% elseif attributes and attributes is iterable %}
+			{% set _svg = _svg|attr(attributes) %}
+		{% endif %}
+		{{_svg|raw}}
+	{% endif %}
+{% endmacro %}

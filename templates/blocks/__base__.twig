@@ -1,0 +1,41 @@
+{% set handle = item.type.handle ?? '' %}
+{# determine extra block classes #}
+{% set paddingClasses = [] %}
+{% set removePadding = item.removePadding %}
+
+{% if removePadding %}
+    {% if removePadding.top %}
+        {% set paddingClasses = paddingClasses|merge(['block-wrapper--top0']) %}
+    {% endif %}
+
+    {% if removePadding.bottom %}
+        {% set paddingClasses =
+            paddingClasses|merge(['block-wrapper--bottom0'])
+        %}
+    {% endif %}
+
+    {# append to block classes if it's defined, otherwise, use the same variable #}
+    {% if block_classes is defined %}
+        {% set block_classes = block_classes ~ ' ' ~ (paddingClasses|join(' '))
+        %}
+    {% else %}
+        {% set block_classes = paddingClasses|join(' ') %}
+    {% endif %}
+{% endif %}
+
+{% block block_wrapper %}
+<div data-handle="{{ handle }}"
+    class="block-wrapper relative w-full {{
+    block_classes is defined
+        ? block_classes
+        : ''
+    }}">
+    {% block block_container %}
+        <div class="container mx-auto">
+            {% block block_content %}
+
+            {% endblock %}
+        </div>
+    {% endblock %}
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{#######################################
+{% css '/index.css'
+    with
+    {
+        rel: 'preload',
+        as: 'style'
+    }
+%}
+{% css '/index.css' %}
+{% css '/fonts/index.css'
+    with
+    {
+        rel: 'preload',
+        as: 'style'
+    }
+%}
+{% css '/fonts/index.css' %}
+########################################}
+{#
+    Pass 'false' to not load css asyncronously.
+    This prevents FOUC when not using the
+    critical css plugin. CAVEAT: Css is now blocking.
+#}
+{{ craft.vite.script('src/js/app.ts', false) }}

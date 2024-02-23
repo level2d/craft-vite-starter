@@ -1,0 +1,233 @@
+dateModified: 1708637550
+email:
+    fromEmail: dev@triptych.co
+    fromName: "Ringgold Telephone Company"
+    transportType: craft\mail\transportadapters\Sendmail
+fs:
+    localIcons:
+        hasUrls: true
+        name: "Local Icons"
+        settings:
+            path: "@webroot/icons"
+        type: craft\fs\Local
+        url: "@web"
+    localUploads:
+        hasUrls: true
+        name: "Local Uploads"
+        settings:
+            path: "@webroot/$ENVIRONMENT"
+        type: craft\fs\Local
+        url: "@web"
+meta:
+    __names__:
+        0d0c9644-6a53-4ed6-b390-c711461431e1: Editors # Editors
+        1c64b57a-53b7-451f-b049-06871277da51: Media # Media
+        01d47684-71da-4c32-80ae-ca1122f60baf: Form # Form
+        2c5ff7c2-a1cb-4af2-852d-27a21966aaa0: "Ringgold Telephone Company" # Ringgold Telephone Company
+        2d7f2e00-6ae4-4fc1-92d1-65d39ccff63a: Root # Root
+        3bcc70b9-acd6-47b3-bfde-27e14b7720c0: "Background Media" # Background Media
+        3d4ea9ee-7c27-4043-abf7-ddac44b998f1: Testimonials # Testimonials
+        4d215f2f-c5a7-49bb-837c-df869034c941: Footer # Footer
+        4d61822f-37ed-4d41-85d2-39fa6f487036: Mobile # Mobile
+        4ee81767-1055-483d-9f12-0fd4cbc799db: "Background Color" # Background Color
+        5bb7a6fc-9e4f-44db-9c13-f9f3860e741f: Mobile # Mobile
+        9d3ede64-e601-463b-8e84-6b1a9214e19e: Form # Form
+        9fd0e32a-f9c2-4067-8b29-036fb8794c03: General # General
+        14d9ab77-bd67-4d39-9c28-fef85e8c1c01: Social # Social
+        17d0a86b-bb67-42f1-9695-2d7e290bb91e: Styles # Styles
+        42c56ff3-4d50-4a42-a233-fd639e18e1ca: "IFrame Embed Code" # IFrame Embed Code
+        048f7850-485e-4ce9-beea-a0cf2d26e7c3: Masthead # Masthead
+        67dac100-a6ea-4ec6-abf4-9cdf6c5c80c9: Meta # Meta
+        71e19741-cdb8-4c83-8849-c4a3e6e434fe: Masthead # Masthead
+        83e4dfc1-a289-40e2-8985-6536c69290c8: "Split Media" # Split Media
+        88d71f91-82ff-4567-9016-7629776dc0d0: Default # Default
+        99ad426b-09dc-4e88-b9f7-5655c5caa7f7: Header # Header
+        233c5c98-2bf2-45ee-b7f2-38a943e1f33a: Centered # Centered
+        345a7f5b-1e35-4c26-aa81-12d42babcf76: "Theme Color" # Theme Color
+        546c0dc4-efaf-48c6-bccc-f5a71fcb1526: Default # Default
+        599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4: Page # Page
+        604f8213-d2c6-49c7-b9e8-9865eb6dff37: "Ringgold Telephone Company" # Ringgold Telephone Company
+        0618b72d-81e6-448c-a10f-f719dbcc25f2: "Anchor ID" # Anchor ID
+        2787e186-c7b6-470f-83f5-81ace404597b: "Material Symbols" # Material Symbols
+        3092f3e6-3c4b-45c9-b679-251985b8ca7d: "Split Content" # Split Content
+        3428c96f-792e-4708-a6ac-6d0e8fb08521: Manifest # Manifest
+        5124f1b3-32a5-4d75-932b-bada8a3fc0ed: Assets # Assets
+        5495f06c-0b70-4469-81e6-8356edfdeb84: "Is Full Width?" # Is Full Width?
+        30669adb-35da-4235-ad1f-363a02a08226: Image # Image
+        37318a0f-4b6d-40a3-8c93-42fdb280b755: "Background Image" # Background Image
+        49716e1e-e28f-4807-9bdd-1d865b61eed8: Content # Content
+        7688246b-0959-458a-bfcb-e50723593348: Subheader # Subheader
+        57442773-6111-433a-81dc-3f4f5c8c3420: Buttons # Buttons
+        96566380-9446-4366-9af6-a322b82ee411: Optimized # Optimized
+        a7e88a68-3575-46c4-83d3-f780f3a4468c: Header # Header
+        a37cfa8e-06aa-4fcf-8f8b-6160b9a1a75e: Table # Table
+        ab8a7d5f-03b1-4332-b628-7aa5d22ba0a7: Body # Body
+        ace89364-d314-431f-b813-d271e00a0425: "Short Name" # Short Name
+        ae49d716-2457-4249-b0b4-8ad58335413e: "Maskable Icon" # Maskable Icon
+        b3a0e118-0da5-45fd-9667-e7470417ab95: "Remove Padding" # Remove Padding
+        bb55a602-b198-4371-a170-22cddb9de6bc: Top # Top
+        bec13ca7-6fd5-47b0-985f-47aa08296300: "Button Color" # Button Color
+        bf0b0702-339a-45de-b3b5-1250488ad00c: "Background Color" # Background Color
+        c1d37ac2-5efa-4a78-b3c2-290abd626a89: Default # Default
+        c6604e5c-d969-4b07-b3c0-2d1fcec67633: "Main Footer" # Main Footer
+        cb14a914-aadf-42b7-b133-5baa9a6419ee: Icons # Icons
+        cd8bb237-59bf-4cac-a69c-1e69582d2316: New # New
+        cdf600a5-23d0-44c9-961b-e0a958e3cd5a: "Main Header" # Main Header
+        d7cf2eba-cdd5-4b1a-a6e2-583fb53db7f1: Bottom # Bottom
+        da003d11-811c-4c11-85d0-4d187e0aef01: "Contact Form" # Contact Form
+        da2c1459-999f-4626-8409-a261cc57fe6f: FAQ # FAQ
+        e5abb398-cb9d-4a1a-aca3-ef0a33e904f5: Blocks # Blocks
+        e6ef0e68-4c74-4739-876d-8f64eb54ec65: "Page Header" # Page Header
+        e20dbe57-b527-477e-952d-fc90c72a2999: Interior # Interior
+        e75cb788-d6a3-4214-94b8-5d09b311b8fa: Name # Name
+        e150d5e7-3b72-46a6-a272-91f4fd780f32: Social # Social
+        e864c9b0-0c99-4b8c-839f-a434af376bd7: IFrame # IFrame
+        e3403a4a-b938-4eda-b1e2-a4326515f636: Navigation # Navigation
+        e25345b9-ee5d-4130-8816-6babc344b19a: "Hero Form" # Hero Form
+        eaed7d7c-219a-4ac0-b80e-fe930f400108: "SVG Icon" # SVG Icon
+        eaf78ba9-edcd-49a0-9c85-9ff04d14d378: Common # Common
+        edadef31-1482-4381-b67a-990d8ff40f76: "Hero Simple" # Hero Simple
+        f5e6feb9-0e5a-4f6f-abb8-4959e567fcf0: Description # Description
+        f67ca412-37bf-4d98-9e3c-ae5ad46d2f01: Header # Header
+        f2710c8e-53aa-496c-940e-7f8636b129d3: "Split Interior" # Split Interior
+        fa1cf797-7fab-4926-b51a-06602627ccd4: "Hero Media" # Hero Media
+        fa9212d7-8e2d-43b4-b9b0-9c1349877f50: Footer # Footer
+        fbeb52dc-7b82-433e-97a2-cfbcc4732d26: Uploads # Uploads
+plugins:
+    async-queue:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    aws-s3:
+        edition: standard
+        enabled: true
+        schemaVersion: "2.0"
+    blitz-recommendations:
+        edition: standard
+        enabled: true
+        schemaVersion: 2.1.0
+    block-usage:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    canary:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    code-mirror:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    colour-swatches:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.4.3
+    element-api:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    embeddedassets:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    feed-me:
+        edition: standard
+        enabled: true
+        schemaVersion: 5.1.0.0
+    field-manager:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    formie:
+        edition: standard
+        enabled: true
+        licenseKey: 0355K8VN6FOTSW5BM3KCKWID
+        schemaVersion: 2.0.15
+    hyper:
+        edition: standard
+        enabled: true
+        licenseKey: JB9M3CXGCVMOGH4D7JLI83QD
+        schemaVersion: 1.0.0
+    icon-picker:
+        edition: standard
+        enabled: true
+        licenseKey: W6DC876VG6KLKVO0HD7C94J7
+        schemaVersion: 1.2.3
+        settings:
+            enableCache: true
+            iconItemSize: 32
+            iconItemSizeLarge: 40
+            iconItemWrapperSize: 56
+            iconItemWrapperSizeLarge: 72
+            iconSetsPath: "@webroot/icons"
+            iconSetsUrl: "@web/icons"
+            redactorFieldHandle: ""
+    image-optimize:
+        edition: standard
+        enabled: true
+        licenseKey: 5P2UKM82NPKEU4DSYUO35SF5
+        schemaVersion: 1.0.0
+    image-resizer:
+        edition: standard
+        enabled: true
+        schemaVersion: 2.0.0
+    navigation:
+        edition: standard
+        enabled: true
+        licenseKey: OMMPXGVJRK7UTGJURQL3EZAA
+        schemaVersion: 2.0.7
+    neo:
+        edition: standard
+        enabled: true
+        licenseKey: S8BBK20WKOEM7Y4T376VDBPM
+        schemaVersion: 4.0.0
+    redactor:
+        edition: standard
+        enabled: true
+        schemaVersion: 2.3.0
+    retour:
+        edition: standard
+        enabled: true
+        licenseKey: OI04Q019UBLBBYFXA4NJ6AC4
+        schemaVersion: 3.0.12
+    seomatic:
+        edition: standard
+        enabled: true
+        licenseKey: RPA7XW7KKINOJK54125TG7NQ
+        schemaVersion: 3.0.12
+    sprig:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.1
+    super-table:
+        edition: standard
+        enabled: true
+        schemaVersion: 3.0.0
+    tablemaker:
+        edition: standard
+        enabled: true
+        schemaVersion: 3.0.0
+    timber:
+        edition: standard
+        enabled: true
+        licenseKey: P16RNI1PKM9D1SRH27ZMI6ZH
+        schemaVersion: 1.0.0
+    twig-profiler:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    vite:
+        edition: standard
+        enabled: true
+        schemaVersion: 1.0.0
+    zen:
+        edition: standard
+        enabled: true
+        licenseKey: RXS6XSUK3X6N87ZH7C4U8JNP
+        schemaVersion: 1.0.0
+system:
+    edition: pro
+    live: true
+    name: "Ringgold Telephone Company"
+    schemaVersion: 4.5.3.0
+    timeZone: America/Los_Angeles

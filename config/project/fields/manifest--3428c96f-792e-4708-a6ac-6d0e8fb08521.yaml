@@ -1,0 +1,65 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: eaf78ba9-edcd-49a0-9c85-9ff04d14d378 # Common
+handle: manifest
+instructions: null
+name: Manifest
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 594938532
+  columns:
+    __assoc__:
+      -
+        - e75cb788-d6a3-4214-94b8-5d09b311b8fa # Name
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - ace89364-d314-431f-b813-d271e00a0425 # Short Name
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 345a7f5b-1e35-4c26-aa81-12d42babcf76 # Theme Color
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - bf0b0702-339a-45de-b3b5-1250488ad00c # Background Color
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - cb14a914-aadf-42b7-b133-5baa9a6419ee # Icons
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - ae49d716-2457-4249-b0b4-8ad58335413e # Maskable Icon
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_manifest}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

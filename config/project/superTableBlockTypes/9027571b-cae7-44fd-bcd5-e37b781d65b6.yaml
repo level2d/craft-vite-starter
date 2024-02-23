@@ -1,0 +1,127 @@
+changedFieldIndicator: 1321688290
+field: e3403a4a-b938-4eda-b1e2-a4326515f636 # Navigation
+fieldLayouts:
+  0797d8bb-c16d-488f-9bc7-39c193fd3071:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 71e19741-cdb8-4c83-8849-c4a3e6e434fe # Masthead
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1d51624-354f-4ede-aa8d-a3e9e1e18460
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 99ad426b-09dc-4e88-b9f7-5655c5caa7f7 # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8911759b-a49e-4b50-b916-3dee6d698c9e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4d215f2f-c5a7-49bb-837c-df869034c941 # Footer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f25a6e5-a587-48a3-a974-54d7a00a1eae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5bb7a6fc-9e4f-44db-9c13-f9f3860e741f # Mobile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee5aae87-d73e-4b0b-94bd-82c24b396be6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e150d5e7-3b72-46a6-a272-91f4fd780f32 # Social
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1fd4ff7-215d-4370-ac85-be072065fc22
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f5d50224-8eb9-47fd-8905-afce096ae458
+        userCondition: null
+fields:
+  4d215f2f-c5a7-49bb-837c-df869034c941: # Footer
+    columnSuffix: lcmquorq
+    contentColumnType: text
+    fieldGroup: null
+    handle: footer
+    instructions: null
+    name: Footer
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField
+  5bb7a6fc-9e4f-44db-9c13-f9f3860e741f: # Mobile
+    columnSuffix: eoaismnc
+    contentColumnType: text
+    fieldGroup: null
+    handle: mobile
+    instructions: null
+    name: Mobile
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField
+  71e19741-cdb8-4c83-8849-c4a3e6e434fe: # Masthead
+    columnSuffix: konoivlj
+    contentColumnType: text
+    fieldGroup: null
+    handle: masthead
+    instructions: null
+    name: Masthead
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField
+  99ad426b-09dc-4e88-b9f7-5655c5caa7f7: # Header
+    columnSuffix: rqhzhdra
+    contentColumnType: text
+    fieldGroup: null
+    handle: header
+    instructions: null
+    name: Header
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField
+  e150d5e7-3b72-46a6-a272-91f4fd780f32: # Social
+    columnSuffix: iflbybsw
+    contentColumnType: text
+    fieldGroup: null
+    handle: social
+    instructions: null
+    name: Social
+    searchable: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\navigation\fields\NavigationField

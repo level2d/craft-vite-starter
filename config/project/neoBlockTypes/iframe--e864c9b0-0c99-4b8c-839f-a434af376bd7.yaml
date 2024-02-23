@@ -1,0 +1,82 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e5abb398-cb9d-4a1a-aca3-ef0a33e904f5 # Blocks
+fieldLayouts:
+  f7f29708-da61-49b3-8fd9-b81482a12c63:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42c56ff3-4d50-4a42-a233-fd639e18e1ca # IFrame Embed Code
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14022b24-58e0-4bc7-a07d-010e2fac459d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0618b72d-81e6-448c-a10f-f719dbcc25f2 # Anchor ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c6fdb36-b01c-453e-b27d-6916af746e72
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 84f19aaf-14b8-44fc-8c7f-4837562837e1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b3a0e118-0da5-45fd-9667-e7470417ab95 # Remove Padding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce74a5fd-86c8-43d6-b6ca-aee8a55334d2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee81767-1055-483d-9f12-0fd4cbc799db # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9c4f507-8b70-4fec-aabe-f11c194aa7b2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Styles
+        uid: 0833f019-f3a1-4dfa-bd0d-8262691f2858
+        userCondition: null
+group: 49716e1e-e28f-4807-9bdd-1d865b61eed8 # Content
+groupChildBlockTypes: true
+handle: iframe
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: IFrame
+topLevel: true

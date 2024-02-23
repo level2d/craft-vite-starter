@@ -1,0 +1,106 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e5abb398-cb9d-4a1a-aca3-ef0a33e904f5 # Blocks
+fieldLayouts:
+  7a395dca-aaf7-4bf9-bc46-2c0330147ec8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a7e88a68-3575-46c4-83d3-f780f3a4468c # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d147e59a-80a8-48ca-b913-4d2bad549e49
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab8a7d5f-03b1-4332-b628-7aa5d22ba0a7 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee86883f-77a6-41c8-ad63-d11180609483
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 01d47684-71da-4c32-80ae-ca1122f60baf # Form
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5682cef-cb33-4664-b3d8-250f121e1e4a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0618b72d-81e6-448c-a10f-f719dbcc25f2 # Anchor ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b69d1cc4-f3aa-40bb-bdf3-3a1371af3cad
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 83bf77ba-5ee0-4960-91c8-12155eb717f7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b3a0e118-0da5-45fd-9667-e7470417ab95 # Remove Padding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f37d376-7014-496d-b10f-380d30783a61
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee81767-1055-483d-9f12-0fd4cbc799db # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef0aae46-e755-4861-8384-cb465935c71d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Styles
+        uid: 74f21d45-4d65-4455-b11d-3d95fbc75b71
+        userCondition: null
+group: 49716e1e-e28f-4807-9bdd-1d865b61eed8 # Content
+groupChildBlockTypes: true
+handle: form
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Form
+topLevel: true

@@ -1,0 +1,94 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e5abb398-cb9d-4a1a-aca3-ef0a33e904f5 # Blocks
+fieldLayouts:
+  af658b04-a015-45cc-bc1c-24690d71a7f9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a7e88a68-3575-46c4-83d3-f780f3a4468c # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e113acd0-7b9c-41c4-bd9a-decaf2650585
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab8a7d5f-03b1-4332-b628-7aa5d22ba0a7 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d9872a1-4de2-4d65-9dd1-539b0cc48dc0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 57442773-6111-433a-81dc-3f4f5c8c3420 # Buttons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7813aee-f77e-4b50-8097-1652ed907dce
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0618b72d-81e6-448c-a10f-f719dbcc25f2 # Anchor ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26cf6920-4977-4e0d-adb6-314228ccecfd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f4b31828-0d38-4dd2-99b9-14df6a8e31eb
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4ee81767-1055-483d-9f12-0fd4cbc799db # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7910eb9d-970f-445a-87b4-a07d49fe6e59
+            userCondition: null
+            warning: null
+            width: 100
+        name: Styles
+        uid: 0a3c2b22-13be-443c-a5ec-6684faebb4f4
+        userCondition: null
+group: 49716e1e-e28f-4807-9bdd-1d865b61eed8 # Content
+groupChildBlockTypes: true
+handle: splitInterior
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Split Interior'
+topLevel: false

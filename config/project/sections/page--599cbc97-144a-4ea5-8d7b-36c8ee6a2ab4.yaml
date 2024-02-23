@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: page
+name: Page
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2c5ff7c2-a1cb-4af2-852d-27a21966aaa0: # Ringgold Telephone Company
+    enabledByDefault: true
+    hasUrls: true
+    template: page/_entry
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 6179f595-1602-4b7e-9ec3-8f77be49ac27
+type: structure

@@ -1,0 +1,89 @@
+{
+    "require": {
+        "craftcms/aws-s3": "2.0.3",
+        "craftcms/cms": "^4.4.0",
+        "craftcms/element-api": "3.0.1.1",
+        "craftcms/feed-me": "5.3.0",
+        "craftcms/redactor": "3.0.4",
+        "craftpulse/craft-colour-swatches": "4.3.0",
+        "luwes/craft-codemirror": "2.0.0",
+        "nystudio107/craft-imageoptimize": "4.0.5",
+        "nystudio107/craft-retour": "4.1.15",
+        "nystudio107/craft-seomatic": "4.0.42",
+        "nystudio107/craft-twigprofiler": "4.0.0-beta.1",
+        "nystudio107/craft-vite": "4.0.8",
+        "ostark/craft-async-queue": "3.1.1",
+        "putyourlightson/craft-blitz-recommendations": "2.1.3",
+        "putyourlightson/craft-sprig": "2.7.3",
+        "simplygoodwork/craft-block-usage": "1.0.2",
+        "spicyweb/craft-embedded-assets": "3.2.0",
+        "spicyweb/craft-neo": "4.0.6",
+        "topshelfcraft/canary": "4.0.0-beta.1",
+        "verbb/field-manager": "3.0.8",
+        "verbb/formie": "2.1.5",
+        "verbb/hyper": "1.1.20",
+        "verbb/icon-picker": "2.0.16",
+        "verbb/image-resizer": "3.0.11",
+        "verbb/navigation": "2.0.25",
+        "verbb/super-table": "3.0.12",
+        "verbb/tablemaker": "4.0.7",
+        "verbb/timber": "1.0.3",
+        "verbb/zen": "1.0.2",
+        "vlucas/phpdotenv": "^5.4.0"
+    },
+    "require-dev": {
+        "craftcms/generator": "^1.3.0",
+        "yiisoft/yii2-shell": "^2.0.3",
+        "friendsoftwig/twigcs": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        },
+        "require-dev": {
+            "craftcms/generator": "^1.3.0",
+            "yiisoft/yii2-shell": "^2.0.3"
+        },
+        "autoload": {
+            "psr-4": {
+                "modules\\": "modules/"
+            }
+        },
+        "config": {
+            "allow-plugins": {
+                "craftcms/plugin-installer": true,
+                "yiisoft/yii2-composer": true
+            },
+            "sort-packages": true,
+            "optimize-autoloader": true,
+            "platform": {
+                "php": "8.0.2"
+            }
+        },
+        "scripts": {
+            "post-root-package-install": [
+                "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
+            ]
+        },
+        "repositories": [
+            {
+                "type": "composer",
+                "url": "https://composer.craftcms.com",
+                "canonical": false
+            }
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.craftcms.com",
+            "canonical": false
+        }
+    ]
+}

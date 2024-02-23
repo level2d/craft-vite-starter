@@ -1,0 +1,8 @@
+{% extends "blocks/__base__" %}
+
+{% set children = item.children.all() %}
+{% block block_container %}
+    {% for child in children %}
+        {% include "blocks/children/" ~ child.type.handle %}
+    {% endfor %}
+{% endblock %}

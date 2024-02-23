@@ -1,0 +1,15 @@
+columnSuffix: hhbiplpu
+contentColumnType: string
+fieldGroup: 5124f1b3-32a5-4d75-932b-bada8a3fc0ed # Assets
+handle: svgIcon
+instructions: null
+name: 'SVG Icon'
+searchable: false
+settings:
+  columnType: text
+  iconSets: '*'
+  renderId: null
+  showLabels: false
+translationKeyFormat: null
+translationMethod: none
+type: verbb\iconpicker\fields\IconPickerField

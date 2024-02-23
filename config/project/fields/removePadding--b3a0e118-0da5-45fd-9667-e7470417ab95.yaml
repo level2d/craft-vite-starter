@@ -1,0 +1,37 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 17d0a86b-bb67-42f1-9695-2d7e290bb91e # Styles
+handle: removePadding
+instructions: null
+name: 'Remove Padding'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 763363431
+  columns:
+    __assoc__:
+      -
+        - bb55a602-b198-4371-a170-22cddb9de6bc # Top
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - d7cf2eba-cdd5-4b1a-a6e2-583fb53db7f1 # Bottom
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_removepadding}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

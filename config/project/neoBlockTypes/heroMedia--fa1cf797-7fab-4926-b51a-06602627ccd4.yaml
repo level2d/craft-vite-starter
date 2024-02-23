@@ -1,0 +1,118 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: e5abb398-cb9d-4a1a-aca3-ef0a33e904f5 # Blocks
+fieldLayouts:
+  c2ddb945-38ed-469d-a2fd-9ed7f132cffa:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a7e88a68-3575-46c4-83d3-f780f3a4468c # Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 056bb2aa-b7b5-4f01-a3ce-3dad1c5a3ba2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7688246b-0959-458a-bfcb-e50723593348 # Subheader
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb99315e-fe0e-4290-a74e-efeb3c20e5ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f5e6feb9-0e5a-4f6f-abb8-4959e567fcf0 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5af551f-537c-4bb7-8f1b-cba1c5442d43
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 57442773-6111-433a-81dc-3f4f5c8c3420 # Buttons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e1ef185b-c7a0-4790-b092-bc978b158ef8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0618b72d-81e6-448c-a10f-f719dbcc25f2 # Anchor ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a0c3cf68-b20e-4f0f-8306-6826001db961
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fe4be7be-0803-4ec6-a836-2aa4412fbdd8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3bcc70b9-acd6-47b3-bfde-27e14b7720c0 # Background Media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 684501b6-57c4-4729-ac5e-ede071776e69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee81767-1055-483d-9f12-0fd4cbc799db # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4972c96-4482-48f0-b700-f04c59e535b2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Styles
+        uid: a1afefa4-dfbd-4a77-b884-c262452063b3
+        userCondition: null
+group: e6ef0e68-4c74-4739-876d-8f64eb54ec65 # Page Header
+groupChildBlockTypes: true
+handle: heroMedia
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Hero Media'
+topLevel: true

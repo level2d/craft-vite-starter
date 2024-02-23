@@ -1,0 +1,49 @@
+description: ''
+handle: editors
+name: Editors
+permissions:
+  - 'createentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'createentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'createentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'createfolders:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'deleteassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'deleteentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'deleteentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'deleteentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'deletepeerassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'deletepeerentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'deletepeerentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'deletepeerentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'deletepeerentrydrafts:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'deletepeerentrydrafts:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'deletepeerentrydrafts:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'editglobalset:9fd0e32a-f9c2-4067-8b29-036fb8794c03' # General
+  - 'editglobalset:f67ca412-37bf-4d98-9e3c-ae5ad46d2f01' # Header
+  - 'editglobalset:fa9212d7-8e2d-43b4-b9b0-9c1349877f50' # Footer
+  - 'editimages:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'editpeerimages:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'replacefiles:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'replacepeerfiles:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'saveassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'saveentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'saveentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'saveentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'savepeerassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'savepeerentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'savepeerentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'savepeerentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'savepeerentrydrafts:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'savepeerentrydrafts:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'savepeerentrydrafts:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'utility:clear-caches'
+  - 'viewassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'viewentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'viewentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'viewentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'viewpeerassets:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+  - 'viewpeerentries:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'viewpeerentries:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'viewpeerentries:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ
+  - 'viewpeerentrydrafts:3d4ea9ee-7c27-4043-abf7-ddac44b998f1' # Testimonials
+  - 'viewpeerentrydrafts:599cbc97-144a-4ea5-8d7b-36c8ee6a2ab4' # Page
+  - 'viewpeerentrydrafts:da2c1459-999f-4626-8409-a261cc57fe6f' # FAQ

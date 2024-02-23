@@ -1,0 +1,66 @@
+childBlocks:
+  - splitInterior
+  - splitMedia
+conditions: null
+description: ''
+enabled: true
+field: e5abb398-cb9d-4a1a-aca3-ef0a33e904f5 # Blocks
+fieldLayouts:
+  c5fd9470-0a60-4b4a-9e98-414df4163322:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5495f06c-0b70-4469-81e6-8356edfdeb84 # Is Full Width?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2f67ae6-ac3f-4cac-a393-014491b07365
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b3a0e118-0da5-45fd-9667-e7470417ab95 # Remove Padding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3ca43586-8923-4aa6-bd8b-a65e08cb6c19
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0618b72d-81e6-448c-a10f-f719dbcc25f2 # Anchor ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a40f938b-b5cf-48ff-96a5-ab2a66a9ec24
+            userCondition: null
+            warning: null
+            width: 100
+        name: Styles
+        uid: ea70a552-a755-474a-8e9e-06384be6c89b
+        userCondition: null
+group: 49716e1e-e28f-4807-9bdd-1d865b61eed8 # Content
+groupChildBlockTypes: true
+handle: splitContent
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 2
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Split Content'
+topLevel: true

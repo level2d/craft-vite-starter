@@ -1,0 +1,12 @@
+columnSuffix: uwvlkoxy
+contentColumnType: text
+fieldGroup: eaf78ba9-edcd-49a0-9c85-9ff04d14d378 # Common
+handle: iframeEmbedCode
+instructions: null
+name: 'IFrame Embed Code'
+searchable: false
+settings:
+  mode: htmlmixed
+translationKeyFormat: null
+translationMethod: none
+type: luwes\codemirror\fields\CodeMirrorField

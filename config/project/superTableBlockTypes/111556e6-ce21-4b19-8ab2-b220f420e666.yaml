@@ -1,0 +1,226 @@
+changedFieldIndicator: 445470939
+field: 3428c96f-792e-4708-a6ac-6d0e8fb08521 # Manifest
+fieldLayouts:
+  b16b49c4-9a50-4c49-97dd-206931b54d16:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e75cb788-d6a3-4214-94b8-5d09b311b8fa # Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ccb805d-1043-4767-a006-7557e273d7a0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ace89364-d314-431f-b813-d271e00a0425 # Short Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d6b7643c-243a-4061-a2f5-944f6cb59773
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 345a7f5b-1e35-4c26-aa81-12d42babcf76 # Theme Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b65eb5dc-a5d8-4b66-98c9-dec3931bd963
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bf0b0702-339a-45de-b3b5-1250488ad00c # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 624d666c-91d0-4cd2-98e6-140db369f348
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb14a914-aadf-42b7-b133-5baa9a6419ee # Icons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dd4d2f25-ec0c-4f50-9c0e-8f7dc1a26698
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae49d716-2457-4249-b0b4-8ad58335413e # Maskable Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4203150c-9f0d-4f91-9677-d31f6512157d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: af2c6e41-0220-46c7-8776-65af26efcf45
+        userCondition: null
+fields:
+  345a7f5b-1e35-4c26-aa81-12d42babcf76: # Theme Color
+    columnSuffix: vvrsmjhl
+    contentColumnType: char(7)
+    fieldGroup: null
+    handle: themeColor
+    instructions: null
+    name: 'Theme Color'
+    searchable: false
+    settings:
+      defaultColor: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  ace89364-d314-431f-b813-d271e00a0425: # Short Name
+    columnSuffix: hhotqlmw
+    contentColumnType: text
+    fieldGroup: null
+    handle: shortName
+    instructions: null
+    name: 'Short Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ae49d716-2457-4249-b0b4-8ad58335413e: # Maskable Icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: maskableIcon
+    instructions: null
+    name: 'Maskable Icon'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+      restrictedLocationSubpath: null
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  bf0b0702-339a-45de-b3b5-1250488ad00c: # Background Color
+    columnSuffix: fiuryepx
+    contentColumnType: char(7)
+    fieldGroup: null
+    handle: backgroundColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      defaultColor: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  cb14a914-aadf-42b7-b133-5baa9a6419ee: # Icons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: icons
+    instructions: null
+    name: Icons
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:fbeb52dc-7b82-433e-97a2-cfbcc4732d26' # Uploads
+      restrictedLocationSubpath: null
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e75cb788-d6a3-4214-94b8-5d09b311b8fa: # Name
+    columnSuffix: ozmqfbjp
+    contentColumnType: text
+    fieldGroup: null
+    handle: manifestName
+    instructions: null
+    name: Name
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
