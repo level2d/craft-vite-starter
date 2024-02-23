@@ -18,9 +18,12 @@
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },
     "files.associations": {
-        "*.html": "twig"
+        "*.html": "twig",
     },
     "emmet.includeLanguages": {
         "twig": "html"
     },
+    "css.customData": [
+        ".vscode/css_custom_data.json"
+    ]
 }
